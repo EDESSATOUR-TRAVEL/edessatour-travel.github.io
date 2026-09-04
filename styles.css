@@ -324,3 +324,8 @@ header .brand img,
 .d-africa{background-position:center 42%;}
 .d-latinamerica{background-position:center 35%;}
 .d-world{background-position:center 48%;}
+
+/* Final footer brand fit */
+.footer-brand img{height:92px !important;width:auto !important;max-width:220px !important;object-fit:contain;display:block;filter:brightness(0) invert(1);margin:0 0 12px 0}
+.footer-brand{display:flex;flex-direction:column;align-items:flex-start}
+@media(max-width:600px){.footer-brand img{height:76px !important;max-width:185px !important}}

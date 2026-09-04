@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<meta name="edessatour-version" content="github-clean-2026-09-04">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="EDESSATOUR — Mediterranean Specialist. Group tours, pilgrimage journeys, Europe, Middle East, cruises and tailor-made travel.">
@@ -50,49 +51,12 @@
     </div>
   </section>
 
-  <section class="home-service-cards" aria-label="EDESSATOUR services">
-    <div class="container home-service-grid">
-      <article class="home-service-card">
-        <div class="home-service-media">
-          <video autoplay muted loop playsinline preload="metadata" poster="assets/flight-service.jpg" aria-label="Large aircraft landing">
-            <source src="https://www.pexels.com/download/video/37084019/" type="video/mp4">
-          </video>
-          <div class="home-service-shade"></div><span class="play-ring">▶</span>
-          <div class="home-service-copy">
-            <h3 data-i18n="flightsTitle">Flight Ticket Reservation</h3>
-            <p data-i18n="flightsCopy">Worldwide International and regional flight bookings.</p>
-            <a href="#contact" class="home-service-link" data-service="Flight Ticket Reservation" data-i18n="requestFlight">Request Flight Options →</a>
-          </div>
-        </div>
-      </article>
-      <article class="home-service-card">
-        <div class="home-service-media">
-          <video autoplay muted loop playsinline preload="metadata" poster="assets/mediterranean-cruise.jpg" aria-label="Large modern cruise ship sailing at sea">
-            <source src="https://www.pexels.com/download/video/31198051/" type="video/mp4">
-          </video>
-          <div class="home-service-shade"></div><span class="play-ring">▶</span>
-          <div class="home-service-copy">
-            <h3 data-i18n="cruisesTitle">Cruise Journeys</h3>
-            <p data-i18n="cruisesCopy">Mediterranean and international cruise programs.</p>
-            <a href="#contact" class="home-service-link" data-service="Cruise Journey" data-i18n="requestCruise">Request Cruise Options →</a>
-          </div>
-        </div>
-      </article>
-      <article class="home-service-card">
-        <div class="home-service-media">
-          <video class="service-video trips-home-video" autoplay muted loop playsinline preload="metadata" poster="assets/europe-trip.jpg" aria-label="Jerusalem and Italy travel highlights">
-            <source src="https://www.pexels.com/download/video/32890039/" type="video/mp4">
-          </video>
-          <div class="home-service-shade"></div><span class="play-ring">▶</span>
-          <div class="home-service-copy">
-            <h3 data-i18n="tripsTitle">Tours & Group Travel</h3>
-            <p data-i18n="tripsCopy">Designed Multi-destination journeys to the Middle East and worldwide group programs.</p>
-            <a href="#contact" class="home-service-link" data-service="Group Tour / Travel Program" data-i18n="explore">Explore Tours →</a>
-          </div>
-        </div>
-      </article>
-    </div>
-  </section>
+  <section class="home-service-cards" id="services">
+  <div class="service-card service-card-video"><video class="service-video" autoplay muted loop playsinline preload="metadata" poster="assets/flight-service.jpg"><source src="https://www.pexels.com/download/video/37262121/" type="video/mp4"></video><div class="service-overlay"></div><div class="service-content"><span class="service-kicker">FLIGHTS</span><h3>Flight Ticket Reservation</h3><p>International & regional flights.</p><a href="#contact" data-request="Flight Ticket Reservation">REQUEST FLIGHT</a></div><button class="video-play" type="button" aria-label="Pause flight video">Ⅱ</button></div>
+  <div class="service-card service-card-video"><video class="service-video" autoplay muted loop playsinline preload="metadata" poster="assets/mediterranean-cruise.jpg"><source src="https://www.pexels.com/download/video/38134033/" type="video/mp4"></video><div class="service-overlay"></div><div class="service-content"><span class="service-kicker">CRUISES</span><h3>Cruise Journeys</h3><p>Mediterranean & international cruises.</p><a href="#contact" data-request="Cruise Journey">EXPLORE CRUISES</a></div><button class="video-play" type="button" aria-label="Pause cruise video">Ⅱ</button></div>
+  <div class="service-card service-card-video"><video class="service-video" autoplay muted loop playsinline preload="metadata" poster="assets/europe-trip.jpg"><source src="https://www.pexels.com/download/video/32890039/" type="video/mp4"></video><div class="service-overlay"></div><div class="service-content"><span class="service-kicker">TOURS</span><h3>Tours &amp; Group Travel</h3><p>Organized tours & cultural journeys.</p><a href="#trips">VIEW JOURNEYS</a></div><button class="video-play" type="button" aria-label="Pause tours video">Ⅱ</button></div>
+  <div class="service-card service-card-video"><video class="service-video" autoplay muted loop playsinline preload="metadata" poster="assets/2027-group-travel-collection.png"><source src="assets/groups.mp4" type="video/mp4"></video><div class="service-overlay"></div><div class="service-content"><span class="service-kicker">MULTI-DESTINATION</span><h3>Groups &amp; Multi-Destination</h3><p>Flexible multi-destination group travel.</p><a href="#contact" data-request="Group Tour / Travel Program">PLAN YOUR GROUP</a></div><button class="video-play" type="button" aria-label="Pause group video">Ⅱ</button></div>
+</section>
 
   <section class="quick-strip">
     <div class="container quick-grid">
@@ -127,7 +91,7 @@
           <div class="tour-body">
             <p class="tour-meta">2026–2027</p>
             <h3>Lebanon</h3>
-            <p>Beirut • Jounieh • Mountains • Coast • Golf & leisure</p>
+            <p>Beirut • Jounieh • Mountains • Coast • Culture</p>
             <a href="#contact" class="text-link" data-i18n="askAvailability">Ask for availability →</a>
           </div>
         </article>
@@ -175,12 +139,12 @@
     <div class="container">
       <div class="section-heading">
         <div><p class="eyebrow">EDESSATOUR</p><h2 data-i18n="flightsTitle">Flight Ticket Reservation</h2></div>
-        <p data-i18n="flightsCopy">International and regional flight options for individual travelers and groups, with routing, schedules and fare assistance from your preferred departure city.</p>
+        <p data-i18n="flightsCopy">International & regional flight options.</p>
       </div>
       <div class="service-feature-grid">
         <div class="service-feature-image video-feature">
           <video class="service-video" autoplay muted loop playsinline preload="metadata" poster="assets/flight-service.jpg" aria-label="Large aircraft taking off or landing">
-            <source src="https://www.pexels.com/download/video/32890039/" type="video/mp4">
+            <source src="https://www.pexels.com/download/video/37262121/" type="video/mp4">
           </video>
           <div class="video-fallback">✈ FLIGHT SERVICES</div>
         </div>
@@ -198,12 +162,12 @@
     <div class="container">
       <div class="section-heading">
         <div><p class="eyebrow">EDESSATOUR</p><h2 data-i18n="cruisesTitle">Cruise Journeys</h2></div>
-        <p data-i18n="cruisesCopy">Mediterranean and international cruise programs for couples, families and groups, combined with flights, hotels and land arrangements when needed.</p>
+        <p data-i18n="cruisesCopy">Mediterranean & international cruises.</p>
       </div>
       <div class="service-feature-grid reverse">
         <div class="service-feature-image video-feature">
           <video class="service-video" autoplay muted loop playsinline preload="metadata" poster="assets/mediterranean-cruise.jpg" aria-label="Large modern cruise ship sailing at sea">
-            <source src="https://www.pexels.com/download/video/32890039/" type="video/mp4">
+            <source src="https://www.pexels.com/download/video/38134033/" type="video/mp4">
           </video>
           <div class="video-fallback">⚓ MEDITERRANEAN CRUISES</div>
         </div>
@@ -455,7 +419,7 @@
             <select required name="tour" id="tourSelect">
               <option value="" selected disabled>Select a tour</option>
               <option value="Lourdes Pilgrimage">Lourdes Pilgrimage</option>
-              <option value="Lebanon Golf">Lebanon Golf</option>
+              <option value="Lebanon">Lebanon</option>
               <option value="Holy Land Pilgrimage">Holy Land Pilgrimage</option>
               <option value="Europe Trip">Europe Trip</option>
               <option value="Italy Vatican Experience">Italy Vatican Experience</option>

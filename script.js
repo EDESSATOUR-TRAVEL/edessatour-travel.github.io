@@ -204,3 +204,7 @@ quoteForm.addEventListener("submit", async e=>{
     button.textContent = originalText;
   }
 });
+
+
+// Local service video controls
+document.querySelectorAll('.video-play').forEach(function(btn){btn.addEventListener('click',function(){const card=btn.closest('.service-card-video');const video=card&&card.querySelector('video');if(!video)return;if(video.paused){video.play();btn.textContent='Ⅱ';btn.setAttribute('aria-label','Pause video')}else{video.pause();btn.textContent='▶';btn.setAttribute('aria-label','Play video')}})});

@@ -329,3 +329,21 @@ header .brand img,
 .footer-brand img{height:92px !important;width:auto !important;max-width:220px !important;object-fit:contain;display:block;filter:brightness(0) invert(1);margin:0 0 12px 0}
 .footer-brand{display:flex;flex-direction:column;align-items:flex-start}
 @media(max-width:600px){.footer-brand img{height:76px !important;max-width:185px !important}}
+
+
+/* Final footer logo sizing — match header logo visual width */
+.footer-brand img {
+  width: 128px !important;
+  max-width: 128px !important;
+  height: auto !important;
+  max-height: none !important;
+  object-fit: contain !important;
+  display: block;
+  margin: 0 0 12px 0;
+}
+@media (max-width: 700px) {
+  .footer-brand img {
+    width: 108px !important;
+    max-width: 108px !important;
+  }
+}

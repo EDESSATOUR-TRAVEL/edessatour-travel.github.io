@@ -156,3 +156,70 @@ a{text-decoration:none;color:inherit}.container{width:min(1160px,92%);margin:aut
 .home-service-media video[aria-label="Large modern cruise ship sailing at sea"] { object-position: 50% 48%; }
 .home-service-media .trips-home-video { object-position: 50% 50%; }
 .service-feature-image .service-video { object-fit: cover; }
+
+
+/* EDESSATOUR header logo — refined larger presentation */
+.brand-logo {
+  width: 178px !important;
+  height: auto !important;
+  max-height: 58px !important;
+  object-fit: contain !important;
+}
+
+.brand-text strong {
+  font-size: 1.08rem;
+  letter-spacing: .08em;
+}
+
+.brand-text small {
+  font-size: .68rem;
+}
+
+@media (max-width: 900px) {
+  .brand-logo {
+    width: 150px !important;
+    max-height: 50px !important;
+  }
+}
+
+@media (max-width: 560px) {
+  .brand-logo {
+    width: 138px !important;
+    max-height: 46px !important;
+  }
+}
+
+/* FINAL CLEAN VISUALS */
+.site-header .brand-logo, header .brand-logo {
+  width: 158px !important;
+  max-height: 52px !important;
+  height: auto !important;
+  object-fit: contain !important;
+}
+@media (max-width: 900px) {
+  .site-header .brand-logo, header .brand-logo {
+    width: 142px !important;
+    max-height: 48px !important;
+  }
+}
+@media (max-width: 560px) {
+  .site-header .brand-logo, header .brand-logo {
+    width: 128px !important;
+    max-height: 44px !important;
+  }
+}
+.hero-benefits, .hero-badges, .hero-points {
+  display: none !important;
+}
+.home-service-cards {
+  margin-top: 0 !important;
+  padding-top: 58px !important;
+}
+.home-service-card video {
+  width: 100%;
+  height: 100%;
+  min-height: 360px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}

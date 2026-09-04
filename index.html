@@ -52,8 +52,8 @@
   </section>
 
   <section class="home-service-cards" id="services">
-  <div class="service-card service-card-video"><video class="service-video" autoplay muted loop playsinline preload="metadata" poster="assets/flight-service.jpg"><source src="https://www.pexels.com/download/video/37262121/" type="video/mp4"></video><div class="service-overlay"></div><div class="service-content"><span class="service-kicker">FLIGHTS</span><h3>Flight Ticket Reservation</h3><p>International & regional flights.</p><a href="#contact" data-request="Flight Ticket Reservation">REQUEST FLIGHT</a></div><button class="video-play" type="button" aria-label="Pause flight video">Ⅱ</button></div>
-  <div class="service-card service-card-video"><video class="service-video" autoplay muted loop playsinline preload="metadata" poster="assets/mediterranean-cruise.jpg"><source src="https://www.pexels.com/download/video/38134033/" type="video/mp4"></video><div class="service-overlay"></div><div class="service-content"><span class="service-kicker">CRUISES</span><h3>Cruise Journeys</h3><p>Mediterranean & international cruises.</p><a href="#contact" data-request="Cruise Journey">EXPLORE CRUISES</a></div><button class="video-play" type="button" aria-label="Pause cruise video">Ⅱ</button></div>
+  <div class="service-card service-card-video"><video class="service-video" autoplay muted loop playsinline preload="metadata" poster="assets/flight-service.jpg"><source src="assets/flight.mp4" type="video/mp4"></video><div class="service-overlay"></div><div class="service-content"><span class="service-kicker">FLIGHTS</span><h3>Flight Ticket Reservation</h3><p>International & regional flights.</p><a href="#contact" data-request="Flight Ticket Reservation">REQUEST FLIGHT</a></div><button class="video-play" type="button" aria-label="Pause flight video">Ⅱ</button></div>
+  <div class="service-card service-card-video"><video class="service-video" autoplay muted loop playsinline preload="metadata" poster="assets/mediterranean-cruise.jpg"><source src="assets/cruise.mp4" type="video/mp4"></video><div class="service-overlay"></div><div class="service-content"><span class="service-kicker">CRUISES</span><h3>Cruise Journeys</h3><p>Mediterranean & international cruises.</p><a href="#contact" data-request="Cruise Journey">EXPLORE CRUISES</a></div><button class="video-play" type="button" aria-label="Pause cruise video">Ⅱ</button></div>
   <div class="service-card service-card-video"><video class="service-video" autoplay muted loop playsinline preload="metadata" poster="assets/europe-trip.jpg"><source src="https://www.pexels.com/download/video/32890039/" type="video/mp4"></video><div class="service-overlay"></div><div class="service-content"><span class="service-kicker">TOURS</span><h3>Tours &amp; Group Travel</h3><p>Organized tours & cultural journeys.</p><a href="#trips">VIEW JOURNEYS</a></div><button class="video-play" type="button" aria-label="Pause tours video">Ⅱ</button></div>
   <div class="service-card service-card-video"><video class="service-video" autoplay muted loop playsinline preload="metadata" poster="assets/2027-group-travel-collection.png"><source src="assets/groups.mp4" type="video/mp4"></video><div class="service-overlay"></div><div class="service-content"><span class="service-kicker">MULTI-DESTINATION</span><h3>Groups &amp; Multi-Destination</h3><p>Flexible multi-destination group travel.</p><a href="#contact" data-request="Group Tour / Travel Program">PLAN YOUR GROUP</a></div><button class="video-play" type="button" aria-label="Pause group video">Ⅱ</button></div>
 </section>
@@ -144,7 +144,7 @@
       <div class="service-feature-grid">
         <div class="service-feature-image video-feature">
           <video class="service-video" autoplay muted loop playsinline preload="metadata" poster="assets/flight-service.jpg" aria-label="Large aircraft taking off or landing">
-            <source src="https://www.pexels.com/download/video/37262121/" type="video/mp4">
+            <source src="assets/flight.mp4" type="video/mp4">
           </video>
           <div class="video-fallback">✈ FLIGHT SERVICES</div>
         </div>
@@ -167,7 +167,7 @@
       <div class="service-feature-grid reverse">
         <div class="service-feature-image video-feature">
           <video class="service-video" autoplay muted loop playsinline preload="metadata" poster="assets/mediterranean-cruise.jpg" aria-label="Large modern cruise ship sailing at sea">
-            <source src="https://www.pexels.com/download/video/38134033/" type="video/mp4">
+            <source src="assets/cruise.mp4" type="video/mp4">
           </video>
           <div class="video-fallback">⚓ MEDITERRANEAN CRUISES</div>
         </div>
@@ -250,8 +250,12 @@
       <div class="destination-grid">
         <a class="destination d-europe" href="#tours"><span>Europe</span><small>Italy • Austria • Czech Republic • Croatia & more</small></a>
         <a class="destination d-mediterranean" href="#tours"><span>Mediterranean</span><small>Lebanon • Greece • Turkey • Holy Land</small></a>
-        <a class="destination d-middleeast" href="#tours"><span>Middle East</span><small>Dubai • Egypt • Jordan & beyond</small></a>
-        <a class="destination d-world" href="#contact"><span>Worldwide</span><small>Latin America • Japan • North America & more</small></a>
+        <a class="destination d-middleeast" href="#tours"><span>Middle East</span><small>Dubai • Jordan • Egypt • Oman & beyond</small></a>
+        <a class="destination d-world" href="#contact"><span>Worldwide</span><small>Global journeys • tailor-made travel</small></a>
+        <a class="destination d-northamerica" href="#contact"><span>North America</span><small>USA • Canada • New York & more</small></a>
+        <a class="destination d-latinamerica" href="#contact"><span>Latin America</span><small>Brazil • Argentina • Mexico • Peru & more</small></a>
+        <a class="destination d-asia" href="#contact"><span>Asia</span><small>Japan • Thailand • UAE • Asia & beyond</small></a>
+        <a class="destination d-africa" href="#contact"><span>Africa</span><small>Egypt • Morocco • North Africa & more</small></a>
       </div>
     </div>
   </section>
@@ -483,7 +487,7 @@
 
 <footer class="footer">
   <div class="container footer-grid">
-    <div><img src="assets/logo.png" alt="EDESSATOUR"><p>Mediterranean Specialist</p></div>
+    <div class="footer-brand"><img src="assets/logo.png" alt="EDESSATOUR"><p>Mediterranean Specialist</p></div>
     <div><strong>Explore</strong><a href="#tours">Tours</a><a href="#destinations">Destinations</a><a href="#pilgrimage">Pilgrimage</a></div>
     <div><strong>Travel</strong><a href="#groups">Group Travel</a><a href="#flights">Flight Tickets</a><a href="#cruises">Cruises</a><a href="#about">About</a><a href="#contact">Contact</a></div>
   </div>
